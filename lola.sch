@@ -16015,7 +16015,7 @@ Source: http://www.ftdichip.com/Documents/DataSheets/DS_FT232R_v104.pdf</descrip
 </deviceset>
 </devicesets>
 </library>
-<library name="adafruit" urn="urn:adsk.eagle:library:420">
+<library name="adafruit">
 <packages>
 <package name="USB-MINIB" urn="urn:adsk.eagle:footprint:6239987/1" library_version="2">
 <description>Surface Mount USB Mini-B Connector</description>
@@ -17242,7 +17242,7 @@ Source: http://www.osram.convergy.de/ ... LO_LS_LY L89K.pdf</description>
 <vertex x="-1.524" y="-5.08"/>
 </polygon>
 </package>
-<package name="SMA_EDGELAUNCH_UFL" urn="urn:adsk.eagle:footprint:6240304/1" library_version="2">
+<package name="SMA_EDGELAUNCH_UFL" urn="urn:adsk.eagle:footprint:6240304/1" locally_modified="yes">
 <wire x1="-9.2075" y1="2.54" x2="-8.255" y2="2.54" width="0.2032" layer="51"/>
 <wire x1="-8.255" y1="2.54" x2="-8.255" y2="3.175" width="0.2032" layer="51"/>
 <wire x1="-8.255" y1="3.175" x2="-7.62" y2="3.175" width="0.2032" layer="51"/>
@@ -17294,9 +17294,8 @@ Source: http://www.osram.convergy.de/ ... LO_LS_LY L89K.pdf</description>
 <smd name="P" x="3.048" y="0" dx="1.016" dy="2.032" layer="1" rot="R90" thermals="no" cream="no"/>
 <smd name="GND@3" x="2.032" y="2.54" dx="1.524" dy="4.064" layer="16" rot="R90" cream="no"/>
 <smd name="GND@4" x="2.032" y="-2.54" dx="1.524" dy="4.064" layer="16" rot="R90" cream="no"/>
-<text x="5.08" y="6.985" size="1.016" layer="25" ratio="18" rot="R180">&gt;NAME</text>
-<text x="5.08" y="-7.62" size="0.8128" layer="27" ratio="10" rot="R180">&gt;VALUE</text>
-<text x="5.08" y="-6.35" size="1.016" layer="25" ratio="18" rot="R180">&gt;LABEL</text>
+<text x="5.08" y="5.715" size="1.016" layer="25" ratio="18" rot="R180">&gt;NAME</text>
+<text x="5.08" y="-5.08" size="0.8128" layer="27" ratio="10" rot="R180">&gt;VALUE</text>
 <rectangle x1="0" y1="-0.3175" x2="3.175" y2="0.3175" layer="51"/>
 <rectangle x1="3.2004" y1="-0.4826" x2="3.9624" y2="0.4826" layer="31"/>
 <rectangle x1="0.889" y1="0.9382" x2="3.2258" y2="1.8526" layer="29"/>
@@ -17661,7 +17660,7 @@ Source: http://www.osram.convergy.de/ ... LO_LS_LY L89K.pdf</description>
 <packageinstance name="SMA_EDGELAUNCH"/>
 </packageinstances>
 </package3d>
-<package3d name="SMA_EDGELAUNCH_UFL" urn="urn:adsk.eagle:package:6240947/1" type="box" library_version="2">
+<package3d name="SMA_EDGELAUNCH_UFL" urn="urn:adsk.eagle:package:6240947/1" type="box">
 <packageinstances>
 <packageinstance name="SMA_EDGELAUNCH_UFL"/>
 </packageinstances>
@@ -17687,7 +17686,7 @@ chip</description>
 </package3d>
 </packages3d>
 <symbols>
-<symbol name="USB" urn="urn:adsk.eagle:symbol:6239478/1" library_version="2">
+<symbol name="USB">
 <wire x1="-10.2" y1="7.62" x2="-10.16" y2="7.62" width="0.254" layer="94"/>
 <wire x1="-10.16" y1="7.62" x2="7.62" y2="7.62" width="0.254" layer="94"/>
 <wire x1="7.62" y1="7.62" x2="7.62" y2="-7.62" width="0.254" layer="94"/>
@@ -17722,7 +17721,7 @@ chip</description>
 <pin name="GND" x="10.16" y="-5.08" visible="pin" length="short" direction="pwr" rot="R180"/>
 <pin name="ID" x="10.16" y="-2.54" visible="pin" length="short" rot="R180"/>
 </symbol>
-<symbol name="LED" urn="urn:adsk.eagle:symbol:6239480/1" library_version="2">
+<symbol name="LED">
 <wire x1="1.27" y1="0" x2="0" y2="-2.54" width="0.254" layer="94"/>
 <wire x1="0" y1="-2.54" x2="-1.27" y2="0" width="0.254" layer="94"/>
 <wire x1="1.27" y1="-2.54" x2="0" y2="-2.54" width="0.254" layer="94"/>
@@ -17747,7 +17746,7 @@ chip</description>
 <vertex x="-2.413" y="-2.921"/>
 </polygon>
 </symbol>
-<symbol name="SMACONNECTOR" urn="urn:adsk.eagle:symbol:6239664/1" library_version="2">
+<symbol name="SMACONNECTOR">
 <wire x1="-5.08" y1="5.08" x2="5.08" y2="5.08" width="0.254" layer="94"/>
 <wire x1="5.08" y1="5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
 <wire x1="5.08" y1="-5.08" x2="-5.08" y2="-5.08" width="0.254" layer="94"/>
@@ -17769,7 +17768,7 @@ chip</description>
 <pin name="GND3" x="-2.54" y="-7.62" visible="off" length="short" direction="pwr" rot="R90"/>
 <pin name="GND4" x="2.54" y="-7.62" visible="off" length="short" direction="pwr" rot="R90"/>
 </symbol>
-<symbol name="MCP73833" urn="urn:adsk.eagle:symbol:6239556/1" library_version="2">
+<symbol name="MCP73833">
 <wire x1="-10.16" y1="7.62" x2="10.16" y2="7.62" width="0.254" layer="94"/>
 <wire x1="10.16" y1="7.62" x2="10.16" y2="-7.62" width="0.254" layer="94"/>
 <wire x1="10.16" y1="-7.62" x2="-10.16" y2="-7.62" width="0.254" layer="94"/>
@@ -17787,7 +17786,7 @@ chip</description>
 <pin name="VBAT2" x="15.24" y="2.54" length="middle" direction="out" rot="R180"/>
 <pin name="VBAT1" x="15.24" y="5.08" length="middle" direction="out" rot="R180"/>
 </symbol>
-<symbol name="FUSE" urn="urn:adsk.eagle:symbol:6239571/1" library_version="2">
+<symbol name="FUSE">
 <wire x1="-2.54" y1="2.54" x2="0" y2="2.54" width="0.254" layer="94" curve="-126.869898"/>
 <wire x1="0" y1="2.54" x2="2.54" y2="2.54" width="0.254" layer="94" curve="180"/>
 <text x="-3.81" y="-1.27" size="1.778" layer="96">&gt;VALUE</text>
@@ -17797,7 +17796,7 @@ chip</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="USB" urn="urn:adsk.eagle:component:6240977/1" prefix="CN" uservalue="yes" library_version="2">
+<deviceset name="USB" prefix="CN" uservalue="yes">
 <description>&lt;p&gt;&lt;b&gt;USB Connectors&lt;/b&gt;&lt;/p&gt;
 &lt;b&gt;USBMINIB&lt;/b&gt; - Surface Mount Female Mini-B USB Connector 4UConnector: 06564&lt;/p&gt;
 &lt;p&gt;By microbuilder.eu&lt;/p&gt;
@@ -17854,7 +17853,7 @@ Thru-hole RA Female Mini-B USB Connector 4UConnector: 18732&lt;/p&gt;
 </device>
 </devices>
 </deviceset>
-<deviceset name="LED" urn="urn:adsk.eagle:component:6240980/1" prefix="LED" uservalue="yes" library_version="2">
+<deviceset name="LED" prefix="LED" uservalue="yes">
 <description>&lt;b&gt;LED&lt;/b&gt;&lt;p&gt;
 &lt;u&gt;OSRAM&lt;/u&gt;:&lt;br&gt;
 
@@ -18293,7 +18292,7 @@ Source: http://www.osram.convergy.de/</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="SMACONNECTOR" urn="urn:adsk.eagle:component:6241152/1" prefix="X" uservalue="yes" library_version="2">
+<deviceset name="SMACONNECTOR" prefix="X" uservalue="yes">
 <description>&lt;b&gt;SMA Connector&lt;/b&gt;
 &lt;p&gt;90° DIP SMA Connector, 50 Ohm (4UConnector: 07259)&lt;/p&gt;</description>
 <gates>
@@ -18347,7 +18346,7 @@ Source: http://www.osram.convergy.de/</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="MCP73833" urn="urn:adsk.eagle:component:6241047/1" prefix="IC" library_version="2">
+<deviceset name="MCP73833" prefix="IC">
 <gates>
 <gate name="G$1" symbol="MCP73833" x="0" y="0"/>
 </gates>
@@ -18374,7 +18373,7 @@ Source: http://www.osram.convergy.de/</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="PTCFUSE" urn="urn:adsk.eagle:component:6241062/1" prefix="F" uservalue="yes" library_version="2">
+<deviceset name="PTCFUSE" prefix="F" uservalue="yes">
 <description>PTC fuses, resettable thermistors</description>
 <gates>
 <gate name="G$1" symbol="FUSE" x="0" y="2.54"/>
@@ -29086,11 +29085,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="IC1" library="ftdichip" library_urn="urn:adsk.eagle:library:231" deviceset="FT232R" device="L" package3d_urn="urn:adsk.eagle:package:14013/1"/>
 <part name="GND4" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="C7" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.1uF"/>
-<part name="CN1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="USB" device="MINIB" package3d_urn="urn:adsk.eagle:package:6240633/1"/>
+<part name="CN1" library="adafruit" deviceset="USB" device="MINIB" package3d_urn="urn:adsk.eagle:package:6240633/1"/>
 <part name="F1" library="SparkFun-Fuses" library_urn="urn:adsk.eagle:library:517" deviceset="PPTC" device="_HALF-AMP" package3d_urn="urn:adsk.eagle:package:38575/1" value="6V/0.5A"/>
 <part name="GND5" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
-<part name="LED1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="LED" device="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:6240559/1"/>
-<part name="LED2" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="LED" device="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:6240559/1"/>
+<part name="LED1" library="adafruit" deviceset="LED" device="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:6240559/1"/>
+<part name="LED2" library="adafruit" deviceset="LED" device="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:6240559/1"/>
 <part name="R3" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="1K"/>
 <part name="R4" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="1K"/>
 <part name="D1" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:514" deviceset="DIODE-SCHOTTKY" device="-BAT20J" package3d_urn="urn:adsk.eagle:package:38441/1" value="transil"/>
@@ -29106,7 +29105,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="SUPPLY4" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
 <part name="GND7" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="C10" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="4.7uF"/>
-<part name="X1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="SMACONNECTOR" device="_EDGE_UFL" package3d_urn="urn:adsk.eagle:package:6240947/1"/>
+<part name="X1" library="adafruit" deviceset="SMACONNECTOR" device="_EDGE_UFL" package3d_urn="urn:adsk.eagle:package:6240947/1"/>
 <part name="U3" library="AT24C256C-SSHL-T" deviceset="AT24C256C-SSHL-T" device=""/>
 <part name="GND8" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="SUPPLY5" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
@@ -29116,11 +29115,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="U$1" library="MCP1603T-330I_OS" deviceset="MCP1603T-330I/OS" device=""/>
 <part name="L1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="L-EU" device="L1812" package3d_urn="urn:adsk.eagle:package:23494/2" value="LQH32PN4R7NN0L"/>
 <part name="GND10" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
-<part name="IC2" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="MCP73833" device="-UN" package3d_urn="urn:adsk.eagle:package:6240634/1"/>
+<part name="IC2" library="adafruit" deviceset="MCP73833" device="-UN" package3d_urn="urn:adsk.eagle:package:6240634/1"/>
 <part name="U$2" library="FloManEagle" deviceset="COMF_BHC-18650-1P" device=""/>
 <part name="U$3" library="FloManEagle" deviceset="COMF_BHC-18650-1P" device=""/>
 <part name="GND11" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
-<part name="F2" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PTCFUSE" device="-1812" package3d_urn="urn:adsk.eagle:package:6240348/1"/>
+<part name="F2" library="adafruit" deviceset="PTCFUSE" device="-1812" package3d_urn="urn:adsk.eagle:package:6240348/1"/>
 <part name="SUPPLY6" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="V_BATT" device=""/>
 <part name="GND12" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="SUPPLY7" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="V_BATT" device=""/>
@@ -29192,8 +29191,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="JP1" library="SparkFun-Jumpers" library_urn="urn:adsk.eagle:library:528" deviceset="JUMPER-SMT_2_NO" device="_NO-SILK" package3d_urn="urn:adsk.eagle:package:39277/1" value=""/>
 <part name="JP2" library="SparkFun-Jumpers" library_urn="urn:adsk.eagle:library:528" deviceset="JUMPER-SMT_2_NO" device="_NO-SILK" package3d_urn="urn:adsk.eagle:package:39277/1" value=""/>
 <part name="JP3" library="SparkFun-Jumpers" library_urn="urn:adsk.eagle:library:528" deviceset="JUMPER-SMT_2_NO" device="_NO-SILK" package3d_urn="urn:adsk.eagle:package:39277/1" value=""/>
-<part name="LED3" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="LED" device="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:6240559/1"/>
-<part name="LED4" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="LED" device="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:6240559/1"/>
+<part name="LED3" library="adafruit" deviceset="LED" device="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:6240559/1"/>
+<part name="LED4" library="adafruit" deviceset="LED" device="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:6240559/1"/>
 <part name="R13" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="2K"/>
 <part name="R14" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="2K"/>
 <part name="GND26" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
@@ -29216,7 +29215,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="GND30" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="T2" library="transistor" library_urn="urn:adsk.eagle:library:402" deviceset="*-NPN_DRIVER-" device="SC59-BEC" package3d_urn="urn:adsk.eagle:package:28754/2" technology="MUN2211T1"/>
 <part name="R15" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10K"/>
-<part name="LED5" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="LED" device="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:6240559/1"/>
+<part name="LED5" library="adafruit" deviceset="LED" device="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:6240559/1"/>
 <part name="SUPPLY21" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
 <part name="GND31" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 </parts>
